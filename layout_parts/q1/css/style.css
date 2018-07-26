@@ -3,3 +3,58 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+.clearfix:after{
+  display: block; 
+  content:"";
+  clear: both;
+}
+
+.q1{
+  width: 900px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #eff3f4;
+}
+.box1{
+  width: 230px;
+  background-color: #3274ae;
+  padding: 20px;
+  float: left;
+}
+.box1-2{
+  border: solid 10px #022336;
+  background: #eaf4ff;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 16px;
+  
+
+}
+.box2{
+  width: 230px;
+  background-color: #3274ae;
+  padding: 20px;
+  margin-left: 20px;
+  float: left;
+}
+.box2-2{
+  border: solid 10px #022336;
+  background: #eaf4ff;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 16px;
+}
+.box3{
+  width: 230px;
+  background-color: #3274ae;
+  padding: 20px;
+  margin-left: 20px;
+  float: left;
+}
+.box3-2{
+  border: solid 10px #022336;
+  background: #eaf4ff;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 16px;
+}

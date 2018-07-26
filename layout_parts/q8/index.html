@@ -21,37 +21,37 @@
           <h3 class="box__headline">
             <p class="box__headline__text">ー Q8-1 ボタンパーツ ー</p>
           </h3>
-          <!--
+          <!-- 
                この問題は特に難しいプロパティは使いませんので、普通にやれば簡単にボタンを作ることができます。
                ただ、意識していただきたいのは、classを適切にふることで共通化できるスタイルは共通化してしまうということです。
                この問題もHTMLはすでに記述してありますので、ボタンのdivにclassを付与してスタイルを当ててください。
                .q8--btnにfont-sizeを0として指定してあるので必ずボタン部分でfont-sizeを指定してください。
-          -->
-          <!-- 回答はここに書いてね -->
+          
+          <!-- 回答はここに書いてね
           <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
-          <!-- 新たにタグは追加しなくてもできます。 -->
-          <div class="q8 q8--btn">
+          <!-- 新たにタグは追加しなくてもできます。 --> --> -->
+          <div class="q8 q8--btn small-one all">
             <p class="q8__title">ー small ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="common small-1">common</div>
+            <div class="error small-1">error</div>
+            <div class="disabled small-1">disabled</div>
+            <div class="shadow small-1">shadow</div>
           </div>
 
-          <div class="q8 q8--btn">
+          <div class="q8 q8--btn middle-one all">
             <p class="q8__title">ー middle ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="common middle-2">common</div>
+            <div class="error middle-2">error</div>
+            <div class="disabled middle-2">disabled</div>
+            <div class="shadow middle-2">shadow</div>
           </div>
 
-          <div class="q8 q8--btn">
+          <div class="q8 q8--btn large-one all">
             <p class="q8__title">ー large ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="common large-3">common</div>
+            <div  class="error large-3">error</div>
+            <div  class="disabled large-3">disabled</div>
+            <div  class="shadow large-3">shadow</div>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
@@ -60,7 +60,7 @@
           <h3 class="box__headline">
             <p class="box__headline__text">ー Q8-2 フォーム ー</p>
           </h3>
-          <!--
+          <!-- 
                Webサイトを作る際、コンタクトフォームを実装する機会がとても多くあります。
                ここで使われるタグは一般的にはデザインするのが難しいと言われていますが、それをやらないといけない状況は結構多いです。（簡単リセットされない、:focusや:activeを使う）
                まずは元々タグにあてられているスタイルを解除して、フラットな状態にしてからスタイルを当てていくことが大事です。
@@ -95,11 +95,91 @@
                ・:active
                ・:before
                ・:after
-          -->
+           -->
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
-          <div class="q8">
-            
+          <div class="q8-2">
+            <div class="form-all">
+              <div class="form-title">
+                <p class="form-exercise">Form Exercise</p>
+              </div>
+
+              <div class="clearfix">
+                                 <!-- 左側のフォーム -->
+                <div class="left-form">
+                  <ul class="left-form-items">
+                                    <!-- 名前項目 -->
+                    <li class="list clearfix">
+                      <p class="list-title">名前
+                        <span class="required-red">*</span>
+                      </p>
+                      <div class="content is_8_1">
+                        <input class="name-box box_edit" type="text" name="name" required>
+                      </div>
+                    </li>
+                                     <!-- 性別項目 -->
+                    <li class="list clearfix">
+                      <p class="list-title">性別</p>
+                      <div class="content is_8_2">
+                        <label class="gender_radio">
+                          <input class="gender_radio_button" type="radio" name="gender" value="male">
+                            <span class="gender_radio_text">男性</span>
+                        </label>
+                        <label class="gender_radio">
+                          <input class="gender_radio_button" type="radio" name="gender" value="female">
+                            <span class="gender_radio_text">女性</span>
+                        </label>
+                      </div>
+                    </li>
+                                     <!-- 出身項目 -->
+                    <li class="list clearfix">
+                      <p class="list-title">出身</p>
+                      <div class="content is_8_3">
+                        <select class="menu_box box_edit" name="hometown">
+                          <option value="Tokyou">東京</option>
+                          <option value="Saitama">埼玉</option>
+                          <option value="Chiba">千葉</option>
+                          <option value="Kanagawa">神奈川</option>
+                        </select>
+                      </div>
+                    </li>
+                                     <!-- メールアドレス -->
+                    <li class="list clearfix">
+                      <p class="list-title">Eメール<span class="required-red">*</span></p>
+                      <div class="content is_8_4">
+                        <input class="email_box box_edit" type="email" placeholder="ex)hoge@gmail.com" name="email" required>
+                      </div>
+                    </li>
+                                     <!-- 電話番号 -->
+                    <li class="list clearfix">
+                      <p class="list-title">電話番号</p>
+                      <div class="content is_8_5">
+                        <input class="tel_box box_edit" type="tel" name="tel" placeholder="ex)08012345678">
+                      </div>
+                    </li>
+                                   <!-- ２０歳以上 -->
+                    <li class="list clearfix">
+                      <div class="content is_8_6">
+
+                        <label class="checkbox">
+                          <input class="checkbox_button" type="checkbox" name="twenty">
+                          <span class="checkbox_text">20歳以上です</span>
+                        </label>
+                      </div>
+                    </li>
+                  </ul>
+                                  <!-- 送信ボタン -->
+                  <div class="last_button">
+                    <button class="form_button box_edit" type="submit">送信</button>
+                  </div>
+                </div>
+                                   <!-- 右側のフォーム -->
+                  <div class="right_form">
+                    <textarea class="massage_text box_edit" name="massage"
+                    placeholder="何かあればここに入力してください。"></textarea>
+                  </div>
+              </div>
+            </div>
           </div>
           <!-- 回答はここに書いてね -->
         </div>

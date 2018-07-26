@@ -3,3 +3,104 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+/*横並びーその１*/
+
+
+/*Q７　flaot問題*/
+
+.clearfix::after{
+  content:"";
+  display: block;
+  clear: both;
+}
+
+.left-1{
+  float: left;
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+
+}
+.right-1{
+  float: left;
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-left: 50px;
+}
+/*Q７ table並び*/
+.table-align{
+  display: table;
+}
+
+.left-2{
+  display: table-cell;
+  width: 225px;
+  vertical-align: middle;
+}
+.right-2{
+  display: table-cell;
+  width: 225px;
+  vertical-align: middle;
+  padding-left: 50px;
+}
+.text-2{
+  font-size: 16px;
+}
+
+/*Q7 inlin-blockの鉾並び*/
+.inlineblock-align{
+  font-size: 0;
+}
+
+.left-3{
+  display:inline-block;
+  width: 225px;
+  font-size:16px;
+  vertical-align: middle;
+  box-sizing: border-box;
+
+
+}
+.right-3{
+  display: inline-block;
+  width: 225px;
+  font-size: 16px;
+  margin-left: 50px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+/*flexの横*/
+.fff{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.all-1{
+  width: 225px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/*Q７ inline-blockとmarg*/
+
+.is-full{
+  font-size: 0;
+
+}
+.kkk{
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+}
+.jjj{
+display: inline-block;
+width: 100%;
+margin-left: -300px;
+padding-left: 350px;
+box-sizing: border-box;
+}
+.content{
+  font-size: 16px;
+}

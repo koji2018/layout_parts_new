@@ -1,5 +1,69 @@
 @charset "UTF-8";
 
-/* 回答はここに書いてね */
+.align{
+  text-align: center;
+}
+.t-one{
+  display: inline-block;
+}
+.text{
+width: 90px;
+background-color: #e6f2ff;
+padding: 10px;
+}
+.margin{
+  margin: auto;
+  text-align: center;
+}
 
-/* 回答はここに書いてね */
+
+/*天地中央寄せ*/
+
+.content{
+  padding: 10px;
+  background-color: #fff;
+}
+.ano-table{
+  display: table;
+}
+
+.one {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.first{
+  display: inline-block;
+}
+
+.ano-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*天地中央寄せ　固定・可変*/
+
+.left-one{
+  position: relative;
+}
+.right-one{
+  position: relative;
+}
+
+.left-t{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.right-t{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%,-50%);
+}

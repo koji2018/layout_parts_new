@@ -1,5 +1,306 @@
-@charset "UTF-8";
+@chaset "UTF-8";
 
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+
+
+.small-1{
+  font-size: 16px;
+  line-height: 26px;
+  padding: 0 15px;
+  border-radius: 3px;
+}
+.middle-2{
+  font-size: 20px;
+  line-height: 32px;
+  padding: 0 20px;
+  border-radius: 5px;
+}
+.large-3{
+  font-size: 24px;
+  line-height: 38px;
+  padding: 0 25px;
+  border-radius: 7px;
+}
+.common{
+  display: inline-block;
+  background-color: #00bcd4;
+  color: #fff;
+  cursor: pointer;
+}
+.error{
+  display: inline-block;
+  background-color: #ff4081;
+  margin-left: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+.disabled{
+  display: inline-block;
+  background-color: #e5e5e5;
+  margin-left: 10px;
+  color: #fff;
+}
+.shadow{
+  display: inline-block;
+  color: #222;
+  margin-left: 10px;
+  box-shadow: 0 1px 6px rgba(0,0,0,.12), 0 1px 4px rgba(0,0,0,.12);
+  cursor: pointer;
+}
+
+
+                    /*Q8-2 共通項目*/
+
+
+.clearfix:after{
+  content:"";
+  display:block;
+  clear: both;
+}
+.list{
+  margin-top: 20px;
+}
+.list:first-child{
+  margin-top: 0;
+}
+.left-form-items{
+  margin-bottom: 20px;
+}
+.list-title{
+  float:left;
+  width: 100px;
+  line-height: 25px;
+  text-align: right;
+}
+.required-red{
+  color: #f00;
+}
+.content{
+  float: right;
+  width: 180px;
+}
+
+.box_edit{
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.box_edit:focus {
+  box-shadow: 0 0 7px #00BCD4
+}
+
+          /*Q8-2 フォーム*/
+.form-all{
+  width:700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ECF1F2;
+}
+.form-title{
+  position: relative;
+  margin-bottom: 20px;
+}
+.form-title:before{
+  position: absolute;
+  top:50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  content:"";
+}
+.form-exercise{
+  position: relative;
+  display: inline-block;
+  padding-right: 10px;
+  background-color: #ECF1F2;
+  font-size: 24px;
+  font-weight: bold;
+}
+.left-form{
+  float: left;
+  width: 300px;
+}
+
+            /*　名前入力 */
+.name-box{
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #FFF;
+    font-size: 12px;
+    line-height: 12px;
+    box-sizing: border-box;
+    border: none;
+}
+              /*性別項目*/
+.gender_radio{
+  cursor: pointer;
+}
+.gender_radio_button{
+  display:none;
+}
+.gender_radio_text{
+   position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px
+}
+.gender_radio_text:before{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: '';
+}
+.gender_radio_button:checked + .gender_radio_text:after{
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+  content: '';
+}
+           /*出身項目*/
+.is_8_3{
+  position: relative;
+}
+.is_8_3:after{
+  display: block;
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #E5E5E5;
+  border-bottom: 2px solid #E5E5E5;
+  transform: rotate(45deg);
+  content: "";
+  pointer-events: none;
+}
+
+.menu_box{
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #FFF;
+    font-size: 12px;
+    line-height: 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: none;
+
+}
+              /*メールアドレス*/
+.email_box{
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+  border: none;
+}
+             /*電話番号*/
+.tel_box{
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+  border: none;
+}
+
+            /*２０歳以上*/   
+.checkbox{
+  text-align: right;
+}
+.checkbox_button{
+  display: none;
+}
+.checkbox_text{
+    position: relative;
+    display: inline-block;
+    padding-left: 24px;
+}
+.checkbox_text:before{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  margin-top: -9px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  content: '';
+}
+.checkbox_button:checked + .checkbox_text:after {
+  position: absolute;
+  top: 50%;
+  left: 6px;
+  margin-top: -14px;
+  width: 8px;
+  height: 16px;
+  border-right: 3px solid #00BCD4;
+  border-bottom: 3px solid #00BCD4;
+  transform: rotate(45deg);
+  content: '';
+}
+             /*送信ボタン*/
+.last_button{
+  text-align: right;
+}
+.form_button{
+  padding: 0 10px;
+  background-color: #00bcd4;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 26px;
+  border-radius: 5px;
+}
+.form_button:active{
+  background-color: #FFF;
+  color: #00BCD4;
+}
+
+            /*右側フォーム*/
+.right_form{
+  float: left;
+  width: 380px;
+  margin-left: 20px;
+}
+.massage_text{
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #FFF;
+    font-size: 12px;
+    box-sizing: border-box;
+    resize: none;
+    border: none;
+}
+.massage_text:focus{
+  box-shadow: 0 0 7px #00BCD4;
+}
+
+
