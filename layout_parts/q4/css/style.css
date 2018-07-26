@@ -8,57 +8,39 @@
   padding: 20px;
   background-color: #ECF1F2;
 }
-.text1{
+.contents{
   width: 100%;
   display: table;
   background-color: #ECF1F2;
   margin-top: 20px;
 }
-.text1:first-child{
+.contents:first-child{
   margin-top: 0;
+}
+.cell{
+  display: table-cell;
+  text-align: center;
+  padding: 20px;
 }
 .pink{
   width: 100px;
-  padding: 20px;
-  display: table-cell;
-  text-align: center;
   background-color: #FDC8B8;
 }
 .purple{
-  padding: 20px;
-  display: table-cell;
-  text-align: center;
   background-color: #e0abde
 }
 .blue{
   width: 100px;
-  padding: 20px;
-  display: table-cell;
-  text-align: center;
   background-color: #b6d8ed
 }
-.text2{
-  width: 100%;
-  display: table;
-  background-color: #ECF1F2;
-  margin-top: 20px;
-}
+
 .yellow{
-  display: table-cell;
-  padding: 20px;
-  text-align: center;
   background-color: #E5D32E;
 }
 .red{
-  display: table-cell;
-  padding: 20px;
-  text-align: center;
   background-color: #ec8f9a;
 }
 .green{
   width: 500px;
-  display: table-cell;
-  padding: 20px;
-  text-align: center;
   background-color: #8FDCAD
 }

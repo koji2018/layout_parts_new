@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
-.align{
+.contents{
   text-align: center;
 }
-.t-one{
+.text_align{
   display: inline-block;
 }
 .text{
@@ -19,27 +19,29 @@ padding: 10px;
 
 /*天地中央寄せ*/
 
-.content{
-  padding: 10px;
-  background-color: #fff;
-}
-.ano-table{
+.is_table{
   display: table;
 }
-
-.one {
+.is_table_box{
   display: table-cell;
-  vertical-align: middle;
+  background-color: #ECF1F2;
   text-align: center;
+  vertical-align: middle;
 }
-.first{
+.is_table .box_text{
   display: inline-block;
+  padding: 10px;
+  background-color: #FFF;
 }
 
-.ano-flex{
+.is_flex{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.is_flex .box_text{
+  padding: 10px;
+  background-color: #FFF;
 }
 
 /*天地中央寄せ　固定・可変*/

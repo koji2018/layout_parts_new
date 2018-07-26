@@ -5,19 +5,19 @@
 /* 回答はここに書いてね */
 
 
-.small-1{
+.small{
   font-size: 16px;
   line-height: 26px;
   padding: 0 15px;
   border-radius: 3px;
 }
-.middle-2{
+.middle{
   font-size: 20px;
   line-height: 32px;
   padding: 0 20px;
   border-radius: 5px;
 }
-.large-3{
+.large{
   font-size: 24px;
   line-height: 38px;
   padding: 0 25px;
@@ -174,7 +174,7 @@
   margin-top: -4px;
   background-color: #00BCD4;
   border-radius: 50%;
-  content: '';
+  content:'';
 }
            /*出身項目*/
 .is_8_3{
@@ -229,7 +229,7 @@
   border: none;
 }
 
-            /*２０歳以上*/   
+            /*２０歳以上*/
 .checkbox{
   text-align: right;
 }

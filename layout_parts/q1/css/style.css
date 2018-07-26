@@ -4,7 +4,7 @@
 
 /* 回答はここに書いてね */
 .clearfix:after{
-  display: block; 
+  display: block;
   content:"";
   clear: both;
 }
@@ -15,21 +15,24 @@
   margin: 0 auto;
   background-color: #eff3f4;
 }
-.box1{
+.contents{
   width: 230px;
   background-color: #3274ae;
   padding: 20px;
+  margin-left: 20px;
   float: left;
 }
-.box1-2{
+.box:first-child{
+  margin-left: 0;
+}
+.contents_text{
   border: solid 10px #022336;
   background: #eaf4ff;
   padding: 20px;
   font-size: 16px;
   line-height: 16px;
-  
-
 }
+/*}
 .box2{
   width: 230px;
   background-color: #3274ae;
@@ -57,4 +60,4 @@
   padding: 20px;
   font-size: 16px;
   line-height: 16px;
-}
+}*/

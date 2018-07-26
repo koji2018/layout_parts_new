@@ -1,14 +1,12 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
-/* 回答はここに書いてね */ 
 .table_all{
   width: 100%;
   border: 1px solid #dedede;
   table-layout: fixed;
 }
-.table_th{
+.table_all th{
   padding: 10px;
   border: 1px solid #dedede;
   vertical-align: middle;
@@ -24,9 +22,10 @@
   line-height: 22px;
   text-align: center;
 }
-.tablerow:nth-child(even) {
+.table_all tr:nth-child(even) {
   background-color: #ECF1F2;
 }
-.tablerow:last-child {
+.table_all .tbody tr:last-child {
   border-top: 2px dashed #000;
 }
+/* 回答はここに書いてね */

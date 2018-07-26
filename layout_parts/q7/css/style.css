@@ -14,14 +14,14 @@
   clear: both;
 }
 
-.left-1{
+.flow_left{
   float: left;
   width: 225px;
   font-size: 16px;
   box-sizing: border-box;
 
 }
-.right-1{
+.flow_right{
   float: left;
   width: 225px;
   font-size: 16px;
@@ -33,18 +33,18 @@
   display: table;
 }
 
-.left-2{
+.table_left{
   display: table-cell;
   width: 225px;
   vertical-align: middle;
 }
-.right-2{
+.table_right{
   display: table-cell;
   width: 225px;
   vertical-align: middle;
   padding-left: 50px;
 }
-.text-2{
+.q7__box__text{
   font-size: 16px;
 }
 
@@ -53,7 +53,7 @@
   font-size: 0;
 }
 
-.left-3{
+.inlineblock_left{
   display:inline-block;
   width: 225px;
   font-size:16px;
@@ -62,7 +62,7 @@
 
 
 }
-.right-3{
+.inlineblock_right{
   display: inline-block;
   width: 225px;
   font-size: 16px;
@@ -72,7 +72,7 @@
 }
 
 /*flexの横*/
-.fff{
+.flex{
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
@@ -89,18 +89,18 @@
   font-size: 0;
 
 }
-.kkk{
+.q7__margin{
   display: inline-block;
   vertical-align: top;
   width: 300px;
 }
-.jjj{
+.q7__inline_block{
 display: inline-block;
 width: 100%;
 margin-left: -300px;
 padding-left: 350px;
 box-sizing: border-box;
 }
-.content{
+.q7__box__text .content{
   font-size: 16px;
 }

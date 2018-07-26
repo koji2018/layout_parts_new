@@ -9,27 +9,22 @@
   padding: 20px;
   margin: 0 auto;
 }
-.article1{
+.article{
   display: block;
 }
-.img1{
+.img-left{
   float:left;
   margin-right:20px;
+  margin-bottom: 20px;
 }
-.text1{
+.text{
   font-size: 18px;
   line-height: 22px;
   word-break:break-all;
 }
-.article2{
-  display: block;
-}
-.img2{
+.img-right{
   float:right;
   margin-left:20px;
+  margin-bottom: 20px;
 }
-.text2{
-  font-size: 18px;
-  line-height:22px;
-  word-break: break-all;
-}
+
